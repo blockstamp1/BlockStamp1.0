@@ -10,11 +10,12 @@
     "sweep": "node lib/sweep.js",
     "lint": "standard 'lib/**/*.js' 'config/*.js' 'server/**/*.js'",
     "test": "mocha --timeout 10000 && npm run lint && npm run ui:test && npm run ui:lint",
-    "start": "concurrently \"npm run ui:watch\" \"npm run server\"",
+    "start": "concurrently \"npm run ui:start\" \"npm run server\"",
     "ui:lint": "standard 'ui/app/**/*.jsx' 'ui/app/**/*.js' 'client/index.js'",
     "ui:lintfix": "standard --fix 'ui/app/**/*.jsx' 'ui/app/**/*.js' 'client/index.js'",
     "ui:test": "NODE_ENV=test mocha --require ui/testHelper.js  --reporter=nyan --require ignore-styles --compilers js:babel-core/register 'ui/app/**/**.test.js'",
     "ui:watch": "NODE_ENV=development webpack",
+    "ui:start": "NODE_ENV=production webpack",
     "watch": "npm start"
   },
   "standard": {
@@ -55,6 +56,7 @@
     "hbs": "^4.0.1",
     "hoek": "^5.0.3",
     "jquery-form": "^3.50.0",
+    "js-yaml": "^4.1.0",
     "jsdom": "^9.9.1",
     "level": "^2.0.0",
     "lodash": "^4.0.0",
