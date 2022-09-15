@@ -15,8 +15,8 @@ chains:
       testnet:
         incomingPrivateKey: tprv8ZgxMBicQKsPeewq23StQ8B32pn7Vxyhpn4ViPHnfNFi2sXvShkSYzjFYZ5dfhqszEBdzFk5oxDqKt5bxthSjNGWnPhtvUg7KtBuZuckTuD
         outgoingPublicKey: tpubD6NzVbkrYhZ4Y6BbebPozJGFnyvtqE7rhmweyeJNWhen2BZw21LSt9cMjHKNmY2dNa7dFmyqMjbo64cwH6DqwNbBupBSt7Q9nTZmtJjve8H
-        documentPrice: 200000
-        feeMultiplier: 4
+        documentPrice: 20
+        feeMultiplier: 2
 
 mail:
   from: poex@localhost
