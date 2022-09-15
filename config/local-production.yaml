@@ -21,7 +21,7 @@ app:
          -contracts
   url:
     scheme: http
-    host: 194.163.44.131
+    host: localhost
     port: 3004
   magicNumber: magic12345
   defaultChain: btc
