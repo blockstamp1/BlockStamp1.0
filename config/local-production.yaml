@@ -44,7 +44,11 @@ chains:
         documentPrice: 200000
         feeMultiplier: 4
 
-
+social:
+  twitter: proofxstence
+  telegram: EEP3LAyL8WvklWGsQ29F4g
+  github: proofofexistence
+  
 services:
   insight:
     btc:
