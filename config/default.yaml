@@ -1,58 +1,74 @@
 app:
-  port: 3003
+  port: 3004
   site:
-    brand: Proof of Existence
-    logo: "/theme/logo.svg"
-    title: Proof of Existence
-    slogan: Written forever.
-    tagline: Instant & Secure Proof of Existence for Any Document.
-    email: love@proofofexistence.com
-    keywords:
-      - blockchain
-      - notary
-      - proof of existence
-      - bitcoin
-      - p2p
-      - anonymous
-      - secure
-      - permanent
-      - distributed
-      - documents
-      - agreements
-      - contracts
+      brand: BlockStamp v1
+      title: BlockStamp
+      slogan: Written forever.
+      tagline: Instant & Secure Proof of Existence for Any Document.
+      logo: "/theme/logo.svg"
+      keywords:
+         -blockchain
+         -notary
+         -proof of existence
+         -bitcoin
+         -p2p
+         -anonymous
+         -secure
+         -permanent
+         -distributed
+         -documents
+         -agreements
+         -contracts
   url:
     scheme: http
     host: localhost
-    port: 3003
+    port: 3004
   magicNumber: magic12345
   defaultChain: btc
-  defaultNetwork: testnet
+  defaultNetwork: mainnet
+
+db:
+  path: /tmp/blockstamp-database
+
+chains:
+  btc:
+    networks:
+      mainnet:
+        incomingPrivateKey: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
+        outgoingPublicKey: zpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
+        documentPrice: 200000
+        feeMultiplier: 4
+      testnet:
+        incomingPrivateKey: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
+        outgoingPublicKey: zpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
+        documentPrice: 200000
+        feeMultiplier: 4
 
 social:
-  twitter: proofxstence
+  twitter: blockstamp1
   telegram: EEP3LAyL8WvklWGsQ29F4g
-  github: proofofexistence
-
+  github: blockstamp1
+  
 services:
   insight:
     btc:
       mainnet:
-        url: https://insight.proofofexistence.com
-        api: /api
+         url: https://insight.bitpay.com
+         api: /api
       testnet:
-        url: https://test-insight.proofofexistence.com
-        api: /api
+         url: https://test-insight.bitpay.com
+         api: /api
     bch:
       mainnet:
-        url:
-        api: /api
+         url:
+         api: /api
       testnet:
-        url:
-        api: /api
-
+         url:
+         api: /api
 mail:
-  from: proofx@localhost
-  to: proofx@localhost
+  from: blockstamp@proton.com
+  to: blockstamp@proton.com
 
 nodemailer:
   options:
+    jsonTransport: true
