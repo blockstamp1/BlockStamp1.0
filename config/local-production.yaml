@@ -34,8 +34,8 @@ chains:
   btc:
     networks:
       mainnet:
-        incomingPrivateKey: xprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
-        outgoingPublicKey: xpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
+        incomingPrivateKey: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
+        outgoingPublicKey: zpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
         documentPrice: 20
         feeMultiplier: 2
       testnet:
