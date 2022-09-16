@@ -34,7 +34,7 @@ chains:
   btc:
     networks:
       mainnet:
-        incomingPrivateKey: KwdMMuGwMQ7mgnq31CkenRVfjPXpVxPcMpBom3Xb1iuU4c9WBHFy
+        incomingPrivateKey: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
         outgoingPublicKey: zpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
         documentPrice: 20
         feeMultiplier: 2
