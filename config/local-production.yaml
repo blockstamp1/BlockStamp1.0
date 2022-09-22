@@ -39,8 +39,8 @@ chains:
         documentPrice: 100
         feeMultiplier: 2
       testnet:
-        incomingPrivateKey: tprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
-        outgoingPublicKey: tpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
+        incomingPrivateKey: tprv8ZgxMBicQKsPcsbCVeqqF1KVdH7gwDJbxbzpCxDUsoXHdb6SnTPYxdwSAKDC6KKJzv7khnNWRAJQsRA8BBQyiSfYnRt6zuu4vZQGKjeW4YF
+        outgoingPublicKey: tpubD6NzVbkrYhZ4WLczPJWReQycCJdd6YVWXubbVUFnJ5KgU5MDQrD998ZJLNGbhd2pq7ZtDiPYTfJ7iBenLVQpYgSQqPjUsQeJXH8VQ8xA67D
         documentPrice: 100
         feeMultiplier: 2
 
