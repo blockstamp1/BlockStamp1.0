@@ -25,7 +25,7 @@ app:
     port: 3004
   magicNumber: magic12345
   defaultChain: btc
-  defaultNetwork: mainnet
+  defaultNetwork: testnet
 
 db:
   path: /tmp/blockstamp-database
@@ -39,8 +39,8 @@ chains:
         documentPrice: 100
         feeMultiplier: 2
       testnet:
-        incomingPrivateKey: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
-        outgoingPublicKey: zpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
+        incomingPrivateKey: tprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
+        outgoingPublicKey: tpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
         documentPrice: 100
         feeMultiplier: 2
 
