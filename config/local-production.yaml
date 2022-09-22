@@ -25,7 +25,7 @@ app:
     port: 3004
   magicNumber: magic12345
   defaultChain: btc
-  defaultNetwork: livenet
+  defaultNetwork: mainnet
 
 db:
   path: /tmp/blockstamp-database
@@ -33,7 +33,7 @@ db:
 chains:
   btc:
     networks:
-      livenet:
+      mainnet:
         incomingPrivateKey: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
         outgoingPublicKey: zpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
         documentPrice: 100
