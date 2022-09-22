@@ -36,12 +36,12 @@ chains:
       mainnet:
         incomingPrivateKey: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
         outgoingPublicKey: zpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
-        documentPrice: 2000
+        documentPrice: 100
         feeMultiplier: 2
       testnet:
         incomingPrivateKey: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
         outgoingPublicKey: zpub6sFiEToSPiJN9e2aiNBiNE4ERjQuR62LntBNP3yUNXEKqTxKP3Nbib4rGw52rqVDHww7PSJqzvEXvvpXckdHr4BxukCNp17JfCnhBVWffVg
-        documentPrice: 2000
+        documentPrice: 100
         feeMultiplier: 2
 
 social:
