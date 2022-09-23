@@ -65,3 +65,6 @@ etc/ssl/certs/ssl-cert-snakeoil.pem
 etc/ssl/certs/dhparam.pem
 !!!!!!!!!!!!!!!!!!!!
 https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-20-04-1
+--------------------------------------------
+BITCOIN_HD_PRIVATE_KEY:  zprvAdGr7JoJnHPmtqp7dxAxYHQBeBh3atmSNpTsbHj3ZazemcaRSu1c88fbTUiFazAMA8TdYwA87X3wxSxQrc3E8vjzkQNdQoYurA98t8Eo9x8
+BITCOIN_HD_PUBLIC_KEY: zpub6rB1x7rJTqG1cG4MAKW9X5FhfWBobfuCfRSvbjzAcSPwNyheRhK6B8GYQhQ8GY6Tn8gbnQWNRosz2dX8bRoK1KbVwXPrjFHGHeyvYiSfaqS
