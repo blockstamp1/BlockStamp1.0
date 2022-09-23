@@ -58,3 +58,10 @@ PNc55sscRjVKBZAAAAF2ppbUBKSU0tREVTS1RPUC1DQ0xIR01CAQID
 
 @@@@@@@@@@@@@@@@@@
 0d710fae59835471e67b9620cc793e1ea66cb393d0f2f71f588dc03bc2d10c80
+
+!!!!!!!!!!!!!!
+etc/ssl/private/ssl-cert-snakeoil.key
+etc/ssl/certs/ssl-cert-snakeoil.pem
+etc/ssl/certs/dhparam.pem
+!!!!!!!!!!!!!!!!!!!!
+https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-20-04-1

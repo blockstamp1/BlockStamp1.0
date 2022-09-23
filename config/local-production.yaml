@@ -24,7 +24,7 @@ app:
     host: localhost
     port: 3004
   magicNumber: magic12345
-  defaultChain: btc
+  defaultChain: bch
   defaultNetwork: mainnet
   defaultPaymentAddress: bc1q05n5erxvcr8dfaavhgus4wnp8hpzyv0hlncygw
 db:
