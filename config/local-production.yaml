@@ -53,7 +53,7 @@ services:
   insight:
     btc:
       mainnet:
-         url: https://insight.bitpay.com
+         url: https://194.163.44.131:3001
          api: /api
       testnet:
          url: https://test-insight.bitpay.com
