@@ -45,15 +45,15 @@ chains:
         feeMultiplier: 2
 
 social:
-  twitter: proofxstence
+  twitter: blockstamp
   telegram: EEP3LAyL8WvklWGsQ29F4g
-  github: proofofexistence
+  github: blockstamp1
   
 services:
   insight:
     btc:
       mainnet:
-         url: https://194.163.44.131:3001
+         url: https://bitpay.com/insight/BTC/mainnet/
          api: /api
       testnet:
          url: https://test-insight.bitpay.com
