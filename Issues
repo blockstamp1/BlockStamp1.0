@@ -74,3 +74,22 @@ BITCOIN_HD_PUBLIC_KEY: zpub6rB1x7rJTqG1cG4MAKW9X5FhfWBobfuCfRSvbjzAcSPwNyheRhK6B
 git repo: https://github.com/blockstamp1/BlockStamp1.0.git
 
 cd /var/www/proofofexistence
+
+sudo systemctl status blockstamp
+
+sudo systemctl restart blockstamp
+
+https://blockstamp.me
+
+===========================TODOS==========================
+Origin: https://proofofexistence.com/
+Client's: https://blockstamp.me/
+
+Set env variable of Bitcoin Insight API url
+
+/lib/controllers/register.js: function register()
+/core/notary/ function createDocproof()
+
+
+
+

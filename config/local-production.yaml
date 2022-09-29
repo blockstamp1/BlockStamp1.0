@@ -53,7 +53,7 @@ services:
   insight:
     btc:
       mainnet:
-         url: https://bitpay.com/insight/BTC/mainnet/
+         url: https://bitpay.com/insight/BTC/mainnet
          api: /api
       testnet:
          url: https://test-insight.bitpay.com
