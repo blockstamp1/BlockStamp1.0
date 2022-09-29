@@ -77,6 +77,8 @@ cd /var/www/proofofexistence
 
 sudo systemctl status blockstamp
 
+sudo systemctl status blockstamp -n50
+
 sudo systemctl restart blockstamp
 
 https://blockstamp.me
@@ -88,7 +90,7 @@ Client's: https://blockstamp.me/
 Set env variable of Bitcoin Insight API url
 
 /lib/controllers/register.js: function register()
-/core/notary/ function createDocproof()
+/core/notary/ function createDocproof() //getTxs()
 
 
 
