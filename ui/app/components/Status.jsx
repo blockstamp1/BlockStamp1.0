@@ -144,7 +144,7 @@ class Status extends Component {
 
     const { hash } = this.props
 
-    updateStatus(hash, { baseURL: null })
+    updateStatus(hash, { baseURL: "https://bitpay.com/insight/BTC/mainnet" })
       .then(response => {
         const {
           tx,
