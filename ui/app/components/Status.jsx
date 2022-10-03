@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import btcConvert from 'bitcoin-convert'
 
@@ -142,11 +143,9 @@ class Status extends Component {
   handleUpdateStatus (e) {
     e.preventDefault()
 
-    const { hash } = this.props;
+    const { hash } = this.props
 
-    console.log("Hello world");
-
-    updateStatus(hash, { baseURL: null })
+    updateStatus(hash, { baseURL: "https://bitpay.com/insight/BTC/mainnet" })
       .then(response => {
         const {
           tx,
@@ -178,7 +177,7 @@ class Status extends Component {
 
         this.setState({
           message
-        });
+        })
 
         console.log(error)
       })
