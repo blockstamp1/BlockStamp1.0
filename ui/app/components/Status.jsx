@@ -142,7 +142,9 @@ class Status extends Component {
   handleUpdateStatus (e) {
     e.preventDefault()
 
-    const { hash } = this.props
+    const { hash } = this.props;
+
+    console.log("Hello world");
 
     updateStatus(hash, { baseURL: null })
       .then(response => {
@@ -176,7 +178,7 @@ class Status extends Component {
 
         this.setState({
           message
-        })
+        });
 
         console.log(error)
       })

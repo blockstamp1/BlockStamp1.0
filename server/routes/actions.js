@@ -54,7 +54,7 @@ function show (req, res) {
 function update (req, res) {
   const {d} = req.body
   if (core.docproof.isValidDigest(d)) {
-    console.log("Valid Digest:", d)
+    console.log("Valid Digest:", d);
     status.refresh(d)
       .then(results => {
         res.json(results)
