@@ -35,7 +35,7 @@ const Payment = ({
       class='btn btn-info btn-fill'
       onClick={handleUpdateStatus}
       >
-      Continue Certification sfsdds
+      Continue Certification
     </a>
   </div>
 )
