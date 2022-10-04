@@ -16,8 +16,7 @@ if (paymentAmount == 0) {
 }
 
 var privateKey = bitcore.PrivateKey.fromWIF(privateKeyWIF)
-// var sourceAddress = privateKey.toAddress()
-var sourceAddress = privateKey.getAddress()
+var sourceAddress = privateKey.toAddress()
 
 insightApi.getUtxo(sourceAddress)
   .then(results => {
