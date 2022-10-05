@@ -100,3 +100,12 @@ Personal Access Token: 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
 
 
 
+===============================GIT========================
+On PC:
+git status
+git add .
+git commit -m "modified register function"
+git push
+On X-Shell:
+git pull
+sudo systemctl restart blockstamp
