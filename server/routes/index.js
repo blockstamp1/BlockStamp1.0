@@ -12,7 +12,7 @@ const isTestnet = defaultNetwork === 'testnet'
 // GET /api
 const version = (req, res, next) =>
   res.send({
-    apiVersion: "1.0",
+    apiVersion: 1.0,
     name: packageFile.name,
     version: packageFile.version
   })
@@ -23,7 +23,7 @@ async function configInfo (req, res, next) {
   const docproofPrice = await core.notary.docproofPrice()
 
   res.send({
-    apiVersion: "1.0",
+    apiVersion: 1.0,
     version: packageFile.version,
     social,
     isTestnet,

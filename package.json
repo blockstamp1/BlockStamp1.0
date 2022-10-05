@@ -1,6 +1,6 @@
 {
-  "name": "Blockstamp",
-  "version": "1.0.1",
+  "name": "proofofexistence",
+  "version": "2.0.1",
   "description": "Web application to prove the existence of files using the bitcoin blockchain.",
   "main": "lib/server.js",
   "scripts": {
@@ -10,12 +10,11 @@
     "sweep": "node lib/sweep.js",
     "lint": "standard 'lib/**/*.js' 'config/*.js' 'server/**/*.js'",
     "test": "mocha --timeout 10000 && npm run lint && npm run ui:test && npm run ui:lint",
-    "start": "concurrently \"npm run ui:start\" \"npm run server\"",
+    "start": "concurrently \"npm run ui:watch\" \"npm run server\"",
     "ui:lint": "standard 'ui/app/**/*.jsx' 'ui/app/**/*.js' 'client/index.js'",
     "ui:lintfix": "standard --fix 'ui/app/**/*.jsx' 'ui/app/**/*.js' 'client/index.js'",
-    "ui:test": "NODE_ENV=test mocha --require ui/testHelper.js  --reporter=nyan --require ignore-styles --compilers js:babel-core/register 'ui/app/**/**.test.js",
+    "ui:test": "NODE_ENV=test mocha --require ui/testHelper.js  --reporter=nyan --require ignore-styles --compilers js:babel-core/register 'ui/app/**/**.test.js'",
     "ui:watch": "NODE_ENV=development webpack",
-    "ui:start": "NODE_ENV=production webpack",
     "watch": "npm start"
   },
   "standard": {
@@ -27,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/blockstamp1/BlockStamp1.0.git"
+    "url": "https://github.com/proofofexistence/proofofexistence.git"
   },
   "babel": {
     "presets": [
@@ -35,7 +34,7 @@
       "react"
     ]
   },
-  "author": "Blockstamp",
+  "author": "PoEx Co., Ltd",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
@@ -109,7 +108,6 @@
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.4",
     "webpack-sass-loaders": "^1.0.0",
-    "webpack-stream": "^4.0.0",
-    "js-yaml": "^4.1.0"
+    "webpack-stream": "^4.0.0"
   }
 }

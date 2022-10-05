@@ -54,12 +54,11 @@ function show (req, res) {
 function update (req, res) {
   const {d} = req.body
   if (core.docproof.isValidDigest(d)) {
-    console.log("Valid Digest:", d);
     status.refresh(d)
       .then(results => {
         res.json(results)
       }).catch(error => {
-        console.log("ERR:", error.message)
+        console.log(error.message)
 
         res.status(500).end('Unexpected error')
       })

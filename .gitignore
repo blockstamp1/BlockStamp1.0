@@ -5,7 +5,8 @@ database
 public/vendor
 log/
 server.pid
-
+.env*
+config/local*
 .DS_Store
 
 # dependencies
