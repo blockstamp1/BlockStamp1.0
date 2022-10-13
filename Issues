@@ -1,14 +1,31 @@
-version argument is not a buffer
+Error: version argument is not a buffer
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+This is my hosting server's info. You can check source codes here.
+
 Ubuntu VPS Hosting:
 Password: Bv@3wb4K-1
 Address: 194.163.44.131
 UserName: root
 
+path: var/www/proofofexistence/
+config: config/local-production.yaml
+
+It's okay, Please fix it. I have no much time. 
+you don't need to run on local, you can use git, This is my git credientials and 
+Name: blockstamp1 
+Personal Token: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
+And this is my repo: https://github.com/blockstamp1/BlockStamp1.0.git
+you can git clone on local and edit.
+and git push to repo.
+on server, you can git pull and recompile with 'sudo systemctl restart blockstamp'
+and refresh on web browser.
+
+It is one way of my developing with server.
+
 Client Git Hub Account: 
-blockstamp1 chp78u7u77z5k89
-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
+
+Password: chp78u7u77z5k89
 
 BITCOIN_HD_PRIVATE_KEY: zprvAfUp27PhmZoZyYguZGfgpjhFZHTQQYmjRKKvBzqLSgRnyQcrrJJUZsE3cehdzzknqP9M7gEmxGDSpRQGLyAvuLXmDqkAmeKaRmKJqJRNGhm
 
@@ -54,6 +71,7 @@ PNc55sscRjVKBZAAAAF2ppbUBKSU0tREVTS1RPUC1DQ0xIR01CAQID
 -----END OPENSSH PRIVATE KEY-----
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Payment Address
 1DLvjzkVwCiH9ZFc1cNvkSDdetipjyQTRa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 12eJ9dWnyVeWFC8erX5NrrZe6WxYvFnJWm
@@ -92,14 +110,6 @@ Set env variable of Bitcoin Insight API url
 /lib/controllers/register.js: function register()
 /core/notary/ function createDocproof() //getTxs()
 
-=========================Nazarii==========================
-Github Address: devdragon1129@gmail.com
-Github New Password: Aa123456!@#$%^S
-Github Name: Nazarii
-Personal Access Token: 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
-
-
-
 ===============================GIT========================
 On PC:
 git status
@@ -109,3 +119,19 @@ git push
 On X-Shell:
 git pull
 sudo systemctl restart blockstamp
+================================Freelancer Description================
+
+I installed proofofexistence.com(opensource) on my ubuntu server , but i have some errors on it's functionality. when I drop a pdf file to dropbox, it generate 500 error or wrong payment address(from hd wallet private key), and also after it, confirming payment api also generate 500 error. can you fix these errors?
+
+Ubuntu VPS Hosting:
+Password: Bv@3wb4K-1
+Address: 194.163.44.131
+UserName: root
+
+path: var/www/proofofexistence/
+config: config/local-production.yaml
+
+This is my git credientials and 
+Name: blockstamp1 
+Personal Token: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
+And this is my repo: https://github.com/blockstamp1/BlockStamp1.0.git
