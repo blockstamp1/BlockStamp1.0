@@ -14,7 +14,7 @@
     "ui:lint": "standard 'ui/app/**/*.jsx' 'ui/app/**/*.js' 'client/index.js'",
     "ui:lintfix": "standard --fix 'ui/app/**/*.jsx' 'ui/app/**/*.js' 'client/index.js'",
     "ui:test": "NODE_ENV=test mocha --require ui/testHelper.js  --reporter=nyan --require ignore-styles --compilers js:babel-core/register 'ui/app/**/**.test.js'",
-    "ui:watch": "NODE_ENV=development webpack",
+    "ui:watch": "NODE_ENV=production webpack",
     "watch": "npm start"
   },
   "standard": {
@@ -56,7 +56,7 @@
     "hoek": "^5.0.3",
     "jquery-form": "^3.50.0",
     "jsdom": "^9.9.1",
-    "level": "^6.0.0",
+    "level": "^2.0.0",
     "lodash": "^4.0.0",
     "modernizr": "^3.5.0",
     "moment": "^2.19.3",
